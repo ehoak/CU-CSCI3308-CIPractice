@@ -1,0 +1,5 @@
+Language: C
+
+sudo: required
+compiler: gcc
+script: make dep && make && make test
