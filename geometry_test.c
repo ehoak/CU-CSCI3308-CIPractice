@@ -52,14 +52,6 @@ START_TEST(test_2d_eq)
     b.y = 8.88;
     ck_assert(!coord_2d_eq(&a, &b));
 
-    a.x = 0.0;
-    a.y = 0.0;
-    b.x = 2.0;
-    b.y = 0.0;
-    c.x = 0.0;
-    c.y = 2.0;
-    ck_assert(!coord_2d_area_triangle(&a, &b, &c)== 2.0);
-
 }
 END_TEST
 
